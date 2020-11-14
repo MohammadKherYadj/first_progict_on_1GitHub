@@ -66,7 +66,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Application.aspx" />
+    <Content Include="Cookies.aspx" />
+    <Content Include="HiddenFild.aspx" />
     <Content Include="packages.config" />
+    <Content Include="Application2.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,17 +79,57 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="page3.aspx" />
     <Content Include="page2.aspx" />
+    <Content Include="page4.aspx" />
+    <Content Include="Session.aspx" />
+    <Content Include="Session2.aspx" />
+    <Content Include="ViewState.aspx" />
     <Content Include="Web.config" />
     <Content Include="page1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Application.aspx.cs">
+      <DependentUpon>Application.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application.aspx.designer.cs">
+      <DependentUpon>Application.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cookies.aspx.cs">
+      <DependentUpon>Cookies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cookies.aspx.designer.cs">
+      <DependentUpon>Cookies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HiddenFild.aspx.cs">
+      <DependentUpon>HiddenFild.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HiddenFild.aspx.designer.cs">
+      <DependentUpon>HiddenFild.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="page3.aspx.cs">
+      <DependentUpon>page3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page3.aspx.designer.cs">
+      <DependentUpon>page3.aspx</DependentUpon>
+    </Compile>
     <Compile Include="page2.aspx.cs">
       <DependentUpon>page2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="page2.aspx.designer.cs">
       <DependentUpon>page2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="page4.aspx.cs">
+      <DependentUpon>page4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page4.aspx.designer.cs">
+      <DependentUpon>page4.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="page1.aspx.cs">
@@ -94,6 +138,34 @@
     </Compile>
     <Compile Include="page1.aspx.designer.cs">
       <DependentUpon>page1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Session.aspx.cs">
+      <DependentUpon>Session.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Session.aspx.designer.cs">
+      <DependentUpon>Session.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Session2.aspx.cs">
+      <DependentUpon>Session2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Session2.aspx.designer.cs">
+      <DependentUpon>Session2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewState.aspx.cs">
+      <DependentUpon>ViewState.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewState.aspx.designer.cs">
+      <DependentUpon>ViewState.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application2.aspx.cs">
+      <DependentUpon>Application2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application2.aspx.designer.cs">
+      <DependentUpon>Application2.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>
